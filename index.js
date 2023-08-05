@@ -25,11 +25,11 @@ function getLink2() {
 
 function setItems(func1, func2) {
     if (func1[0] > func2[0]) {
-        document.querySelector("h1").innerHTML = "Player1 Wins!";
+        document.querySelector("h2").innerHTML = "Player1 Wins!";
     } else if (func2[0]> func1[0]){
-        document.querySelector("h1").innerHTML = "Player2 Wins!";
+        document.querySelector("h2").innerHTML = "Player2 Wins!";
     } else {
-        document.querySelector("h1").innerHTML = "It's a tie!";
+        document.querySelector("h2").innerHTML = "It's a tie!";
     }
     document.querySelector(".img1").setAttribute("src", func1[1]);
     document.querySelector(".img2").setAttribute("src", func2[1]);
